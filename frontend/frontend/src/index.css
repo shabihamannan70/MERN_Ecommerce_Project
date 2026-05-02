@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+
+  --furniture-primary: #a67b5b; /* Warm Oak */
+  --furniture-primary-hover: #8e684a;
+  --furniture-secondary: #d4a373; /* Warm Beige */
+  --furniture-dark: #2c2a29; /* Charcoal/Dark Wood */
+  --furniture-light: #faf9f6; /* Off-white / Alabaster */
+  --furniture-border: #e8e5e1;
+  --furniture-text: #3e3a37;
+  --furniture-glass-bg: rgba(250, 249, 246, 0.85);
+  --furniture-glass-border: rgba(166, 123, 91, 0.15);
+  
+
+  --bs-primary: var(--furniture-primary);
+  --bs-primary-rgb: 166, 123, 91;
+  --bs-secondary: var(--furniture-secondary);
+  --bs-secondary-rgb: 212, 163, 115;
+  --bs-dark: var(--furniture-dark);
+  --bs-dark-rgb: 44, 42, 41;
+  --bs-body-bg: var(--furniture-light);
+  --bs-body-color: var(--furniture-text);
+  --bs-link-color: var(--furniture-primary);
+  --bs-link-hover-color: var(--furniture-primary-hover);
+  --bs-font-sans-serif: 'Outfit', sans-serif;
+  --bs-border-radius: 0.5rem;
+  --bs-border-radius-lg: 0.75rem;
+  --bs-border-radius-xl: 1rem;
+}
+
+body {
+  font-family: var(--bs-font-sans-serif);
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--furniture-light);
+}
+::-webkit-scrollbar-thumb {
+  background: #c5b5a6;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--furniture-primary);
+}
